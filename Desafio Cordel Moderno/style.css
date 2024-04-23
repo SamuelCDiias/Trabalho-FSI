@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Cordel;
+    src: url(fontes/Cordel\ Encarnado.otf);
+}
+body{
+    min-height: 100vh;
+    
+}
+header{
+    background-color: black;
+    width: auto;
+    margin: -8px;
+    padding: 30px;
+}
+header>h1{
+    font-family:"Cordel";
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+header>h3{
+    font-family:"Kodchasan";
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin: -1px;
+}
+h3>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 50px;
+    padding-left: 50px;
+}
+.primeira{
+    font-family: "Kodchasan";
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.segunda>p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: left center;
+    color: white;
+    font-family: "Kodchasan";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 80px;
+}
+.segunda{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    block-size: 600px;
+    background-image: url(imagens/background001.jpg);
+    box-shadow: 1px 1px 10px 1px black;
+}
+.terceira>p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: left center;
+    color: white;
+    font-family: "Kodchasan";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 80px;
+}
+.terceira{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    block-size: 600px;
+    background-image: url(imagens/background002.jpg);
+    box-shadow: 1px 1px 10px 1px black;
+}
+.imgcordel{
+    display: inline-block;
+    float: right;
+    padding: 1px;    
+}
+footer{
+    background-color: rgb(23, 23, 199);
+    color: white;
+    padding: 10px;
+    font-family: "Kodchasan";
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+footer>p>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold
+}

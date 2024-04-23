@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <title>Desafio Responsivo</title>
+</head>
+<body onresize="mudouTamanho">
+    <header>
+            <h1>Projeto Responsivo</h1>
+            <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+            <ul id="itens">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Testando Media Queries</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus quisquam aperiam quam saepe officiis debitis libero tenetur consectetur! Excepturi, nobis! Ab modi reiciendis excepturi, facere enim autem eaque perferendis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam laborum accusamus sint soluta similique dolore in ratione quis explicabo, cumque aperiam voluptates aut! Vitae cupiditate molestiae ipsum, dolores asperiores dolorum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ipsum temporibus quibusdam accusamus nam minus, quisquam assumenda adipisci, nostrum facere maiores ducimus officia, repellendus neque eligendi vero repudiandae similique architecto.</p> 
+    </main>
+    <script>        
+        function clickMenu(){
+            if(itens.style.display == "block")
+                {itens.style.display = "none"}
+                else { 
+                    itens.style.display = "block"
+                }
+        }
+    </script>
+</body>
+</html>

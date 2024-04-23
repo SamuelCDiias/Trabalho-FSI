@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+
+header{
+    background-image: linear-gradient(#86d3a6,#1a4c36);
+    margin: auto;
+    min-width: 600px;
+    box-shadow:1px 1px 15px 1px #091812;
+}    
+header > h1{
+    font-family: "kodchasan";
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+}
+header > h2{
+    font-family: "kodchasan";
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+.menu{
+    margin: 0px;
+}
+.menu{
+    padding: 15px;
+}
+.menu>li{
+    display: inline;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+li>a:hover{
+    background-color: #86d3a644;
+    transition-duration: 0.5s;
+}
+body{
+    background-color: #86d3a6;
+    font-family: "kodchasan";
+    margin: auto;
+}
+.foto1{
+    display: flex;
+    justify-content: center;
+}
+.foto2{
+    display: flex;
+    justify-content: center;
+}
+.foto3{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    box-shadow:1px 1px 10px 1px #091812;
+    max-width: 900px;   
+}
+main>h1{
+    margin: 10px 0px;
+    font-family: "idroid";
+    padding: 2px;
+    color: #1a4c36;
+}
+main > p{
+    font-weight: normal;
+    text-align: justify;
+    padding: 2px;
+    line-height: 2em;
+    font-size: 1;
+}
+main > h2{
+    display: inline;
+    font-family: "idroid";
+    padding: 2px;
+    color: #1a4c36;
+    background-color: #86d3a6b6;
+    
+}
+.video{
+    background-color: #1a4c36;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+article{
+    font-weight:bold;
+}
+.extra > h3{
+    background-color:hsl(145, 44%, 53%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    margin-bottom: -3px;
+    color: white;
+}
+.extra2{
+    background-color:#d6e6db;
+    padding: 5px; 
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px ;   
+}
+.extra2 > p{
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+}
+.lista{
+    list-style-type:'\2714\00A0\00A0' ;
+    list-style-position: inside;
+    columns: 2;
+}
+.final{
+    font-weight: bolder;
+    padding: 10px;
+}
+footer{
+    background-color: #1a4c36;
+    font-family: "kodchasan";
+    color: white;
+    text-align: center;
+    margin: -8px;
+
+}

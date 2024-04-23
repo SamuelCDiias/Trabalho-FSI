@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: white;
+    padding: 20px;
+}
+.google{
+    block-size: 100px;
+    background-image: url(imagens/Google-Emblema.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+menu{
+    text-align: center;
+    margin-top: 5px;
+    list-style-type: none;
+}
+menu li{
+    display: inline;
+    padding-right: 20px;
+}
+menu a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px; 
+    font-weight: bolder; 
+    text-decoration: none;
+    color: gray;
+}
+main{
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.178);
+    margin: auto;
+    color: black;
+}
+main h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: medium;
+    padding-bottom: 30px; 
+}
+.imagem1{
+    block-size: 200px;
+    background-size: contain;
+    background-color: ;
+    background-position:
+    center center;
+    background-repeat: no-repeat;
+    background-image: url(imagens/google.jpg);
+}
