@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
 }
 header{
     background-color: white;
@@ -31,24 +32,54 @@ menu a{
     text-decoration: none;
     color: gray;
 }
+menu a:hover{
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.199);
+    border: transparent;
+}
 main{
-    padding: 30px;
+    padding: 25px;
+    height: 110%;
     background-color: rgba(128, 128, 128, 0.178);
     margin: auto;
     color: black;
 }
 main h1{
+    margin-bottom: 20px;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: normal;
-    font-size: medium;
-    padding-bottom: 30px; 
+    font-weight: bold;
+    
+}
+main h2{
+    font-weight:lighter;
+    text-align: justify;
+    padding: 10PX;
 }
 .imagem1{
+    border-radius: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     block-size: 200px;
     background-size: contain;
-    background-color: ;
     background-position:
     center center;
     background-repeat: no-repeat;
     background-image: url(imagens/google.jpg);
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.301);
+}
+footer h1{
+    font-size: 18px;
+}
+footer h2{
+    font-size: 17px;
+    
+}
+footer .tópicos{
+    color:rgba(0, 0, 0, 0.664);
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
 }
