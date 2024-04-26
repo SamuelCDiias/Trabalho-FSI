@@ -3,7 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-family:'Courier New', Courier, monospace
 }
 header{
     background-color: white;
@@ -26,7 +26,6 @@ menu li{
     padding-right: 20px;
 }
 menu a{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 19px; 
     font-weight: bolder; 
     text-decoration: none;
@@ -51,21 +50,35 @@ main h1{
     font-weight: bold;
     
 }
-main h2{
-    font-weight:lighter;
+main h2 {
+    font-weight:bold;
     text-align: justify;
-    padding: 10PX;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.imagem1{
-    border-radius: 400px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    block-size: 200px;
+main h3{
+    text-indent: 20px;
+    text-align: justify;
+    font-weight: lighter;
+}
+#imagem1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    block-size: 500px;
     background-size: contain;
     background-position:
     center center;
     background-repeat: no-repeat;
-    background-image: url(imagens/google.jpg);
+    
+}
+.imagem1{
+    background-image: url(imagens/Multi-Lateral-Business-Model-Canvas.png)
+}
+.imagem2{
+    background-image: url(imagens/graficos.webp);
+}
+.imagem3{
+    background-image: url(imagens/tabela.png);
 }
 footer{
     background-color: rgba(128, 128, 128, 0.301);
