@@ -37,7 +37,8 @@ menu a:hover{
     border: transparent;
 }
 main{
-    padding: 25px;
+    padding: 15px;
+    padding-bottom: 10px;
     height: 110%;
     background-color: rgba(128, 128, 128, 0.178);
     margin: auto;
@@ -60,6 +61,10 @@ main h3{
     text-indent: 20px;
     text-align: justify;
     font-weight: lighter;
+}
+main li{
+    padding-bottom: 10px;
+    font-size: large;
 }
 #imagem1{
     margin-top: 30px;
