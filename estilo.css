@@ -66,6 +66,13 @@ main li{
     padding-bottom: 10px;
     font-size: large;
 }
+main a{
+    text-decoration: none;
+    color: black;
+}
+main a:hover{
+    color: blue;
+}
 #imagem1{
     margin-top: 30px;
     margin-bottom: 30px;
